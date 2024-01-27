@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Exo 2', sans-serif;
+    text-align: center;
+    background: #F1DAC4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+h1{
+}
+
+.sudoku-container{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+table{
+    border-collapse: collapse;
+    border: 4px solid black;
+}
+
+.cell{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    font-size: 20px;
+    border: 1px solid #776472;
+    transition: all 0.3s ease-in-out;
+}
+
+table tr:nth-child(3n) td{
+    border-bottom: 2px solid black;
+}
+
+table td:nth-child(3n){
+    border-right: 2px solid black;
+}
+
+input{
+    outline: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+button{
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background: #474973;
+    color: white;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 50px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover{
+    background-color: #161B33;
+}
+
+.solved{
+    background-color: #A69CAC; 
+    transition: all 0.2s ease-in-out;
+}
