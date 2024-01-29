@@ -4,8 +4,8 @@ This is a Sudoku Solver web application created using HTML, CSS, and JavaScript.
 
 ## Features
 
-- Solve Sudoku: Allows users to input a Sudoku puzzle and solve it with the click of a button.
-- Responsive Design: The web application is designed to be responsive, ensuring optimal user experience across different devices and screen sizes.
+- <b>Solve Sudoku</b>: Allows users to input a Sudoku puzzle and solve it with the click of a button.
+- <b>Responsive Design</b>: The web application is designed to be responsive, ensuring optimal user experience across different devices and screen sizes.
 
 ## How to Use
 
