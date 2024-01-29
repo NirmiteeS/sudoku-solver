@@ -9,8 +9,8 @@ This is a Sudoku Solver web application created using HTML, CSS, and JavaScript.
 
 ## How to Use
 
-1. <b>Input Sudoku Puzzle<b>: Enter the initial numbers of the Sudoku puzzle into the grid. Use numbers 1-9 to represent the initial values. Leave blank cells for the solver to fill in.
-2. <b>Click Solve<b>: Once the initial puzzle is entered, click the "Solve" button to find the solution.
+1. <b>Input Sudoku Puzzle</b>: Enter the initial numbers of the Sudoku puzzle into the grid. Use numbers 1-9 to represent the initial values. Leave blank cells for the solver to fill in.
+2. <b>Click Solve</b>: Once the initial puzzle is entered, click the "Solve" button to find the solution.
 
 ## Technologies Used
 
